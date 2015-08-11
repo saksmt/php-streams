@@ -1,0 +1,20 @@
+{
+  "name": "smt/streams",
+  "description": "Another abstraction over output",
+  "homepage": "https://github.com/saksmt/php-streams",
+  "author": { "Kirill Saksin": "kirill.saksin@yandex.ru" },
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4",
+    "symfony/console": "~2"
+  },
+  "keywords": [
+    "file",
+    "stream",
+    "symfony",
+    "cli"
+  ],
+  "autoload": {
+    "Smt\\Streams\\": "src/"
+  }
+}
